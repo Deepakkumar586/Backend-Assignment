@@ -8,10 +8,10 @@
 		<version>3.1.0</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.GreenStitch </groupId>
-	<artifactId>GreenStitch_Backend_Assignment</artifactId>
+	<groupId>com.Backend </groupId>
+	<artifactId>Backend-Assignment</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>GreenStitch_Backend_Assignment</name>
+	<name>Backend-Assignment</name>
 	<description>assignment project for Spring Boot with H2 database</description>
 	<properties>
 		<java.version>17</java.version>

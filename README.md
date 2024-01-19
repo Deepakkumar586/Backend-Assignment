@@ -14,13 +14,13 @@ This project is a backend implementation of a login and signup REST API with sec
 ### 1. Clone the Repository
 
 ```
-git clone https://github.com/Shimbhu77/GreenStich_Backend_Assignment.git
+git clone https://github.com/Deepakkumar586/Backend-Assignment
 ```
 
 ### 2. Go the Project
 
 ```
-cd GreenStich_Backend_Assignment/GreenStitch_Backend_Assignment
+cd Backend
 
 ```
 
@@ -44,9 +44,9 @@ cd GreenStich_Backend_Assignment/GreenStitch_Backend_Assignment
 ```
 
 {
-  "fullName": "Shimbhu Kumawat",
-  "password": "Shimbhu@123",
-  "email": "sk@gmail.com"
+  "fullName": "Deepak Kumar",
+  "password": "deep@896",
+  "email": "deep56@gmail.com"
 }
 ```
 
@@ -55,9 +55,9 @@ cd GreenStich_Backend_Assignment/GreenStitch_Backend_Assignment
 ```
 {
     "id": 1,
-    "fullName": "Shimbhu Kumawat",
-    "password": "$2a$10$KVzpEHKFpX2ephA7RXLgqumnZKFy3bT8wdJMW3tYH2yqUJcpZPGSG",
-    "email": "sk@gmail.com",
+    "fullName": "Deepak Kumar",
+    "password": "$3aUI0$KVzpEHKFpX2ephA7RyhgqumnZKFy3bT8wdJMW5tYH2yqUJyerZPGSG",
+    "email": "deep56@gmail.com",
     "role": "ROLE_USER"
 }
 
@@ -69,16 +69,16 @@ cd GreenStich_Backend_Assignment/GreenStitch_Backend_Assignment
 - Path: `http://localhost:8081/signIn`
 - Description: Authenticate a user and retrieve their details.
 - Authentication: Basic Authentication (Username and Password)
-    - Username: [sk@gmail.com](mailto:sk@gmail.com)
-    - Password: Shimbhu@123
+    - Username: [deep56@gmail.com](mailto:deep56@gmail.com)
+    - Password: deep@896
 - Response:
 
 ```
 {
     "id": 1,
-    "fullName": "Shimbhu Kumawat",
-    "password": "$2a$10$KVzpEHKFpX2ephA7RXLgqumnZKFy3bT8wdJMW3tYH2yqUJcpZPGSG",
-    "email": "sk@gmail.com",
+    "fullName": "Deepak Kumar",
+    "password": "$3aUI0$KVzpEHKFpX2ephA7RyhgqumnZKFy3bT8wdJMW5tYH2yqUJyerZPGSG",
+    "email": "deep56@gmail.com",
     "role": "ROLE_USER"
 }
 
@@ -95,7 +95,7 @@ cd GreenStich_Backend_Assignment/GreenStitch_Backend_Assignment
 - Response: A welcome message string.
 - Example:
     - Bearer Token: eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJTaGltYmh1Iiwic3ViIjoiSldUIFRva2VuIiwidXNlcm5hbWUiOiJza0BnbWFpbC5jb20iLCJyb2xlIjoiUk9MRV9VU0VSIiwiaWF0IjoxNjg1Njc3Mzg3LCJleHAiOjE2ODU3MDczODd9.VwM2IGD1fABjEcnNoMb4uIyBnYe3_BmZGx33dElaD-E
-    - Response: Welcome to Shimbhu's Website: Shimbhu Kumawat
+    - Response: Welcome to Shimbhu's Website: Deepak Kumar
 
 ### Tech Stack
 
@@ -154,5 +154,5 @@ spring.h2.console.path=/h2-console
 
 ## **Contributors**
 
-- **[Shimbhu Kumawat](https://github.com/Shimbhu77)**
+- **[Deepak Kumar](https://github.com/Deepakkumar586)**
  
